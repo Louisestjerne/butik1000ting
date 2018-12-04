@@ -14,7 +14,6 @@ body {
 
 /* GLOBAL */
 
-
 .nav {
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
@@ -48,7 +47,6 @@ label {
     display: none;
 }
 
-
 @media only screen and (max-width: 500px) {
     label {
         display: block;
@@ -67,16 +65,8 @@ label {
     }
     #toggle:checked + .menu {
         display: block;
-    }
-    
-    
+    }    
 }
-
-
-
-
-
-
 
 /* --DESKTOP-- */
 
