@@ -1,11 +1,63 @@
-body {
-	font-family: "source Sans pro", sans-serif;
-}
+/* body */
 
+body {
+    font-family: "source Sans pro", sans-serif;
+}
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	font-family: "source sans pro", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "source sans pro", sans-serif;
 
 }
+
+
+/* GLOBAL */
+
+/* --DESKTOP-- */
+
+/* forside */
+
+/* om-os */
+
+/* webshop */
+
+/* --MOBIL-- */
+
+/* mobil global */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #a8d7e7;
+    color: black;
+    text-align: center;
+}
+
+footer img {
+    width: 12%;
+    margin: 4% 0 2% 0;
+}
+
+footer h3 {
+    margin: 4% 0 2% 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+#facebook {
+    margin-right: 1%;
+}
+
+#instagram {
+    margin-left: 1%;
+}
+/* forside */
+
+/* om-os */
+
+/* webshop */
