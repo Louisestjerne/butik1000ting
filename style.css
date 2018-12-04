@@ -64,11 +64,11 @@ label {
         display: block;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
-     
+
     }
     #toggle:checked + .menu {
         display: block;
-    }    
+    }
 }
 
 /* --DESKTOP-- */
@@ -97,6 +97,11 @@ footer img {
 
 footer h3 {
     margin: 4% 0 2% 0;
+    font-weight: 400;
+}
+
+footer p {
+    font-weight: 300;
 }
 
 footer ul {
@@ -110,7 +115,67 @@ footer ul {
 #instagram {
     margin-left: 1%;
 }
+
+
 /* forside */
+
+#hvem-er {
+    margin: 5%;
+}
+
+#hvem-er h2 {
+    font-weight: 400;
+}
+
+#hvem-er p {
+    font-weight: 300;
+}
+
+#historie {
+    position: relative;
+    text-align: center;
+}
+
+#historie img {
+    width: 90%;
+}
+
+#historie p {
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 200;
+}
+
+#firmagaver {
+    position: relative;
+    text-align: center;
+}
+#firmagaver img {
+    width: 90%;
+    height: 400px;
+}
+
+#firmagaver p {
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 200;
+}
 
 /* om-os */
 
