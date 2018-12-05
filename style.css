@@ -84,13 +84,6 @@ label {
 
 
 
-
-.butik {
-	position: relative;
-	
-
-}
-
 .center1 {
 	font-size: 30px;
 	position: absolute;
@@ -105,18 +98,16 @@ label {
 .grid-container {
 	display: grid;
 	grid-template: 1fr 1fr 1fr 1f/ 1fr 1fr 1fr 1fr 1fr;
-
 	grid-gap: 10px;
 	padding: 10px;
 }
 
 .grid-container > div {
-	text-align:;
+	text-align: center;
 	padding: 20px 0;
 	font-size: 30px;
 	border-color: 100px blue;
 }
-
 
 .item1-1 {
 
@@ -141,9 +132,6 @@ label {
 	grid-column: 1 / 5;
 	grid-row: 4 / 5;
 }
-
-
-
 
 
 .item1 {
@@ -183,11 +171,6 @@ label {
 }
 
 
-.wood {
-	position: relative;
-
-}
-
 .center2 {
 
 	font-size: 30px;
@@ -200,10 +183,6 @@ label {
 	border-radius: 40px;
 }
 
-.juletilbud {
-	position: relative;
-	
-}
 
 .center3 {
 	font-size: 30px;
@@ -216,14 +195,6 @@ label {
 	border-radius: 40px;
 }
 
-.snekugle {
-	position: relative;
-	text-align: center;
-
-
-
-
-}
 
 .center4 {
 	font-size: 30px;
@@ -237,16 +208,12 @@ label {
 }
 
 
-.bil {
+#bil {
+	width: 100%;
 	position: relative;
 }
 
-.bil img {
-	width: 500px;
-	position: relative;
-}
-
-p.gulbil {
+.gulbil {
 	position: absolute;
 	top: 90%;
 	left: 5%;
@@ -254,9 +221,11 @@ p.gulbil {
 
 }
 
-.blok {
-	position: relative;
 
+
+#blok{
+	width: 100%;
+	position: relative;
 }
 
 .notesblok {
@@ -267,7 +236,7 @@ p.gulbil {
 }
 
 .sari {
-	position: relative;
+	position:;
 }
 
 
@@ -276,6 +245,8 @@ p.gulbil {
 	top: 5%;
 	left: 5%;
 	color: #ffff;
+	
+	
 }
 
 .tre {
@@ -300,6 +271,23 @@ p.gulbil {
 	left: 75%;
 	color: #ffff;
 
+}
+
+#facade {
+	width: 100%;
+	position: relative;
+}
+
+#wood {
+	width: 100%;
+}
+
+#jul {
+	width: 100%;
+}
+
+#snekugle {
+	width: 100%;
 }
 
 
@@ -408,6 +396,4 @@ footer ul {
 
 /* om-os */
 
-#facade {
-	width: 100%;
-}
+
