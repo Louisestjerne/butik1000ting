@@ -1,11 +1,182 @@
-body {
-	font-family: "source Sans pro", sans-serif;
-}
+/* body */
 
+body {
+    font-family: "source Sans pro", sans-serif;
+}
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	font-family: "source sans pro", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "source sans pro", sans-serif;
 
 }
+
+
+/* GLOBAL */
+
+.nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+span {
+    color: #54D17A;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
+
+/* --DESKTOP-- */
+
+/* forside */
+
+/* om-os */
+
+/* webshop */
+
+/* --MOBIL-- */
+
+/* mobil global */
+
+footer {
+    width: 100%;
+    background-color: #a8d7e7;
+    color: black;
+    text-align: center;
+}
+
+footer img {
+    width: 12%;
+    margin: 4% 0 2% 0;
+}
+
+footer h3 {
+    margin: 4% 0 2% 0;
+    font-weight: 400;
+}
+
+footer p {
+    font-weight: 300;
+}
+
+footer ul {
+    list-style: none;
+}
+
+#facebook {
+    margin-right: 1%;
+}
+
+#instagram {
+    margin-left: 1%;
+}
+
+
+/* forside */
+
+#hvem-er {
+    margin: 5%;
+}
+
+#hvem-er h2 {
+    font-weight: 400;
+}
+
+#hvem-er p {
+    font-weight: 300;
+}
+
+#historie {
+    position: relative;
+    text-align: center;
+}
+
+#historie img {
+    width: 90%;
+}
+
+#historie p {
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 200;
+}
+
+#firmagaver {
+    position: relative;
+    text-align: center;
+}
+#firmagaver img {
+    width: 90%;
+    height: 400px;
+}
+
+#firmagaver p {
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 200;
+}
+
+/* om-os */
+
+/* webshop */
