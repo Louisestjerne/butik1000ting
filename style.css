@@ -19,6 +19,7 @@ body {
 	text-align: right;
 	height: 70px;
 	line-height: 70px;
+    margin-top: -38%;
 }
 
 .menu {
@@ -50,7 +51,14 @@ label {
 	display: none;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 5000px) {
+    
+    .nav {
+	
+    margin-top: -11%;
+}
+    
+    
 	label {
 		display: block;
 		cursor: pointer;
