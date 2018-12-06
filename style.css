@@ -92,16 +92,7 @@ label {
 
 
 
-.center1 {
-	font-size: 30px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(255, 255, 255, 0.6);
-	padding: 0px 20px 0px 20px;
-	border-radius: 40px;
-}
+/*------------ Container grid til webshop*/
 
 .grid-container {
 	display: grid;
@@ -176,11 +167,9 @@ label {
 	grid-column: 1 / 5;
 	grid-row: 7 / 8;
 
-}
+} /*------ SLUT Container grid til webshop*/
 
-
-.center2 {
-
+.center1 {  /* tekst til billede af facade */
 	font-size: 30px;
 	position: absolute;
 	top: 50%;
@@ -190,38 +179,72 @@ label {
 	padding: 0px 20px 0px 20px;
 	border-radius: 40px;
 }
-
-
-.center3 {
-	font-size: 30px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(255, 255, 255, 0.6);
-	padding: 0px 20px 0px 20px;
-	border-radius: 40px;
-}
-
-
-.center4 {
-	font-size: 30px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(255, 255, 255, 0.6);
-	padding: 0px 20px 0px 20px;
-	border-radius: 40px;
-}
-
-
-#bil {
+#facade { /* lille tekst til */
 	width: 100%;
 	position: relative;
 }
 
-.gulbil {
+
+
+
+
+#wood { /* billede træbræt med æble */
+	width: 100%;
+}
+
+
+.center2 { /* tekst til billede af skærebræt */
+
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 0px 20px 0px 20px;
+	border-radius: 40px;
+}
+
+
+
+
+.center3 { /* tekst til billede af gaver */
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 0px 20px 0px 20px;
+	border-radius: 40px;
+}
+
+#jul { /* billede julegaver */
+	width: 100%;
+}
+
+#snekugle { /* billede snekugler */
+	width: 100%;
+}
+
+.center4 { /* tekst til billede af snekugler */
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 0px 20px 0px 20px;
+	border-radius: 40px;
+}
+
+
+#bil { /* billede gul bil  */
+	width: 100%;
+	position: relative;
+}
+
+.gulbil { /* lille tekst til billede af gulbil  */
 	position: absolute;
 	top: 90%;
 	left: 5%;
@@ -230,25 +253,25 @@ label {
 }
 
 
-
-#blok{
-	width: 100%;
+#blok{ /* billede notesblok */
+	width: ;
 	position: relative;
 }
 
-.notesblok {
+.notesblok { /* tekst til notesblok billede */
 	position: absolute;
 	top: 90%;
 	left: 5%;
 	color: #ffff;
 }
 
-.sari {
-	position:;
+#pung { /* billede Sari pung */
+	position:relative;
+	
 }
 
 
-.clutch {
+.clutch { /* tekst til sari pung billede */
 	position: absolute;
 	top: 5%;
 	left: 5%;
@@ -257,23 +280,23 @@ label {
 	
 }
 
-.tre {
+.tre { /* billede træbræt */
 	position: relative;
 }
 
-.woddy {
+.woddy { /* lille tekst til billede af træbræt*/
 	position: absolute;
 	top: 90%;
 	left: 75%;
 	color: #ffff;
 }
 
-.puder {
+.puder { /* billede puder */
 	position: relative;
 
 }
 
-.pillow {
+.pillow { /* lille tekst til billede af puder*/
 	position: absolute;
 	top: 90%;
 	left: 75%;
@@ -281,22 +304,7 @@ label {
 
 }
 
-#facade {
-	width: 100%;
-	position: relative;
-}
 
-#wood {
-	width: 100%;
-}
-
-#jul {
-	width: 100%;
-}
-
-#snekugle {
-	width: 100%;
-}
 
 
 
