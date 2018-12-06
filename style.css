@@ -53,7 +53,6 @@ label {
 @media only screen and (max-width: 5000px) {
 
     .nav {
-
         margin-top: -11%;
     }
 
@@ -89,222 +88,109 @@ label {
 
 /* webshop */
 
-
-
-
 /*------------ Container grid til webshop*/
-.center1 {
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 0px 20px 0px 20px;
-    border-radius: 40px;
-}
 
 .grid-container {
     display: grid;
     grid-template: 1fr 1fr 1fr 1f/ 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-    padding: 10px;
 }
 
-.grid-container > div {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-    border-color: 100px blue;
-}
+.grid-container > div {}
 
-.item1-1 {
 
+/* webshop nyeste tilføjelser */
+
+.webshopnyestefilfoejelser {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
+    position: relative;
+    text-align: center;
+    margin-bottom: 2.5%;
+    margin-top: 5%;
 }
 
-.item1-2 {
-    background-color: darkorange;
+.webshopnyestetilfoejelserp {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 0px 20px 0px 30px;
+    border-radius: 40px;
+}
+
+#webshopnyestetilfoejelserimg {
+    width: 90%;
+}
+
+
+/* webshop firmagaver */
+
+.webshopfirmagaver {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
+    position: relative;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
-.item1-3 {
-    background-color: darkorange;
+.webshopfirmagaverp {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 0px 20px 0px 30px;
+    border-radius: 40px;
+}
+
+#webshopfirmagaverimg {
+    width: 90%;
+}
+
+
+/* webshop sortiment */
+
+.webshopsortiment {
     grid-column: 1 / 5;
     grid-row: 3 / 4;
+    position: relative;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
-.item1-4 {
-    background-color: darkorange;
+.webshopsortimentp {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 0px 20px 0px 30px;
+    border-radius: 40px;
+}
+
+#webshopsortimentimg {
+    width: 90%;
+}
+
+
+/* webshop juletilbud */
+
+.webshopjuletilbud {
     grid-column: 1 / 5;
     grid-row: 4 / 5;
+    position: relative;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
-.item1 {
-    background-color: blueviolet;
-    grid-column: 1 / 3;
-    grid-row: 5 / 6;
-
-}
-
-.item2 {
-    background-color: brown;
-    grid-column: 3 / 5;
-    grid-row: 5 / 6;
-}
-
-.item3 {
-    background-color: brown;
-    grid-column: 1 / 2;
-    grid-row: 6 / 7;
-
-}
-
-.item4 {
-    background-color: brown;
-    grid-column: 2 / 5;
-    grid-row: 6 / 7;
-}
-
-.item5 {
-
-	background-color: brown;
-	grid-column: 1 / 5;
-	grid-row: 7 / 8;
-
-} /*------ SLUT Container grid til webshop*/
-
-.center1 {  /* tekst til billede af facade */
-	font-size: 30px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(255, 255, 255, 0.6);
-	padding: 0px 20px 0px 20px;
-	border-radius: 40px;
-}
-
-#facade { /* lille tekst til */
-	width: 100%;
-	position: relative;
-}
-
-#wood { /* billede træbræt med æble */
-	width: 100%;
-}
-
-.center2 { /* tekst til billede af skærebræt */
-
-	font-size: 30px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(255, 255, 255, 0.6);
-	padding: 0px 20px 0px 20px;
-	border-radius: 40px;
-}
-
-.center3 { /* tekst til billede af gaver */
-	font-size: 30px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(255, 255, 255, 0.6);
-	padding: 0px 20px 0px 20px;
-	border-radius: 40px;
-}
-
-#jul { /* billede julegaver */
-	width: 100%;
-}
-
-#snekugle { /* billede snekugler */
-	width: 100%;
-}
-
-.center4 { /* tekst til billede af snekugler */
-	font-size: 30px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(255, 255, 255, 0.6);
-	padding: 0px 20px 0px 20px;
-	border-radius: 40px;
-}
-
-#bil { /* billede gul bil  */
-	width: 100%;
-	position: relative;
-}
-
-.gulbil { /* lille tekst til billede af gulbil  */
-	position: absolute;
-	top: 90%;
-	left: 5%;
-	color: #ffff;
-}
-
-#blok{ /* billede notesblok */
-	width: ;
-	position: relative;
-}
-
-.notesblok { /* tekst til notesblok billede */
-	position: absolute;
-	top: 90%;
-	left: 5%;
-	color: #ffff;
-}
-
-#pung { /* billede Sari pung */
-	position:relative;
-
-}
-
-.clutch { /* tekst til sari pung billede */
-	position: absolute;
-	top: 5%;
-	left: 5%;
-	color: #ffff;
-	
-	
-}
-
-.tre { /* billede træbræt */
-	position: relative;
-}
-
-.woddy { /* lille tekst til billede af træbræt*/
-	position: absolute;
-	top: 90%;
-	left: 75%;
-	color: #ffff;
-}
-
-.puder { /* billede puder */
-	position: relative;
-}
-
-.pillow { /* lille tekst til billede af puder*/
-	position: absolute;
-	top: 90%;
-	left: 75%;
-	color: #ffff;
-
-}
-
-    background-color: brown;
-    grid-column: 1 / 5;
-    grid-row: 7 / 8;
-}
-
-.center2 {
+.webshopjuletilbudp {
     font-size: 30px;
     position: absolute;
     top: 50%;
@@ -315,104 +201,66 @@ label {
     border-radius: 40px;
 }
 
-.center3 {
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 0px 20px 0px 20px;
-    border-radius: 40px;
+#webshopjuletilbudimg {
+    width: 90%;
 }
 
-.center4 {
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 0px 20px 0px 20px;
-    border-radius: 40px;
-}
 
-#bil {
-    width: 100%;
-    position: relative;
-}
+/* udvalgte varer */
 
-.gulbil {
-    position: absolute;
-    top: 90%;
-    left: 5%;
-    color: #ffff;
+/* webshop gul bil */
 
-}
+#webshopbil {}
 
-#blok {
-    width: 100%;
-    position: relative;
-}
-
-.notesblok {
-    position: absolute;
-    top: 90%;
-    left: 5%;
-    color: #ffff;
-}
-
-.sari {
-    position: ;
-}
-
-.clutch {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    color: #ffff;
-}
-
-.tre {
-    position: relative;
-}
-
-.woddy {
-    position: absolute;
-    top: 90%;
-    left: 75%;
-    color: #ffff;
-}
-
-.puder {
-    position: relative;
-
-}
-
-.pillow {
-    position: absolute;
-    top: 90%;
-    left: 75%;
-    color: #ffff;
-
-}
-
-#facade {
-    width: 100%;
-    position: relative;
-}
-
-#wood {
+#webshopbilimg {
     width: 100%;
 }
 
-#jul {
+#webshopbilp {}
+
+
+/* webshop notesblok */
+
+#webshopblok {}
+
+#webshopblokimg {
+    width: 100%
+}
+
+#weshopblokp {}
+
+
+/* webshop pung */
+
+#webshoppung {}
+
+#webshoppungimg {
     width: 100%;
 }
 
-#snekugle {
+#webshoppungp {}
+
+
+/* webshop skærebræt */
+
+#webshopskaerebraet {}
+
+#webshopskaerebraetimg {
     width: 100%;
 }
+
+#webshopskaerebraetp {}
+
+
+/* webshop puder */
+
+#webshoppuder {}
+
+#webshoppuderimg {
+    width: 100%;
+}
+
+#webshoppuderp {}
 
 
 /*--------------SLUT webshop */
@@ -429,21 +277,15 @@ footer {
     padding: 2% 0 0 0;
 }
 
-#aabningstider {
-    
-}
+#aabningstider {}
 
-#kontaktoplysninger {
-    
-}
+#kontaktoplysninger {}
 
 .footerh3 {
     margin: 4% 0 2% 0;
 }
 
-.footerp {
-
-}
+.footerp {}
 
 footer ul {
     list-style: none;

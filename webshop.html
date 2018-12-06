@@ -2,119 +2,97 @@
 <html lang="da">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Webshop</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 
 <body>
-	<header>
-		<nav>
-			<div class="nav">
-				<label for="toggle">&#9776;</label>
-				<input type="checkbox" id="toggle" />
-				<div class="menu">
-					<a href="index.html">Forside</a>
-					<a href="webshop.html">Webshop</a>
-					<a href="omos.html">Om Os</a>
-				</div>
-			</div>
-
-		</nav>
-
-	</header>
+    <header>
+        <nav>
+            <div class="nav">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" />
+                <div class="menu">
+                    <a href="index.html">Forside</a>
+                    <a href="webshop.html">Webshop</a>
+                    <a href="omos.html">Om Os</a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 
-	<div class="grid-container">
-
-		<div class="item1-1">
-			
-				<img src="images/butik-1000-ting-facade.jpg" id="facade" alt="butik 1000 ting">
-				<p class="center1">Nyeste&nbsp;tilføjelser</p>
-			</div>
-		
 
 
-		<div class="item1-2">
-			<img src="images/skaerbraet-i-trea.jpg" id="wood" alt="Skærebræt i træ">
-			<p class="center2">Firmagaver</p>
-	
-		</div>
+    <div class="webshopnyestefilfoejelser">
+        <img src="images/butik-1000-ting-facade.jpg" id="webshopnyestetilfoejelserimg" alt="butik 1000 ting">
+        <p class="webshopnyestetilfoejelserp">Nyeste&nbsp;tilføjelser</p>
+    </div>
+
+    <div class="webshopfirmagaver">
+        <img src="images/skaerbraet-i-trea.jpg" id="webshopfirmagaverimg" alt="Skærebræt i træ">
+        <p class="webshopfirmagaverp">Firmagaver</p>
+    </div>
+
+    <div class="webshopsortiment">
+        <img src="images/juletilbud.jpg" id="webshopsortimentimg" alt="juletilbud">
+        <p class="webshopsortimentp">Sortiment</p>
+    </div>
+
+    <div class="webshopjuletilbud">
+        <img src="images/snekugle.jpg" id="webshopjuletilbudimg" alt="snekugle">
+        <p class="webshopjuletilbudp">Juletilbud</p>
+    </div>
+    
+    
+    <!-- GRID STARTER HER -->
+    
+    
+    <div id="webshopbil">
+        <img src="images/gul-bil.jpg" id="webshopbilimg" alt="gul bil">
+        <p class="gulbil">Legetøjsbil 199,-</p>
+    </div>
+
+    <div id="webshopblok">
+        <img src="images/notesblok.jpg" id="webshopblokimg" alt="notesblok">
+        <p id="webshopbilp">Notesblokke 89,-</p>
+    </div>
+
+    <div id="webshoppung">
+        <img src="images/sari-clutch.jpg" id="webshoppungimg" alt="sari clutch">
+        <p id="clutch">punge 119,-</p>
 
 
-		<div class="item1-3">
-	
-				<img src="images/juletilbud.jpg" id="jul" alt="juletilbud">
-				<p class="center3">Sortiment</p>
-				</div>
-	
-
-		<div class="item1-4">
-		
-				<img src="images/snekugle.jpg" id="snekugle" alt="snekugle">
-			<p class="center4">Juletilbud</p>
-				</div>
-		
-
-
-		<div class="item1">
-			<div class="bil">
-				<img src="images/gul-bil.jpg" id="bil" alt="gul bil">
-				<p class="gulbil">Legetøjsbil 199,-</p>
-			</div>
-		</div>
-
-		<div class="item2">
-			<div class="blok">
-				<img src="images/notesblok.jpg" id="blok" alt="notesblok">
-				<p class="notesblok">Notesblokke 89,-</p>
-			</div>
-		</div>
-
-		<div class="item3">
-		
-				<img src="images/sari-clutch.jpg" id="pung"  alt="sari clutch">
-				<p class="clutch">punge 119,-</p>
-			</div>
-		</div>
-
-		<div class="item4">
-			<div class="tre">
-				<img src="images/treaskaerbraet.jpg" alt="skærebræt i træ">
-				<p class="woddy">Skærebræt 235,-</p>
-			</div>
-		</div>
-
-		<div class="item5">
-			<div class="puder">
-				<img src="images/puder.jpg" alt="farverige puder, produceret i danmark">
-				<p class="pillow">Puder 249,-</p>
-			</div>
-		</div>
-	
-</div>
-
-
-	<footer>
-		 <div id="aabningstider">
-            <h3 class="footerh3">Åbningstider</h3>
-            <p class="footerp">Man - Fre &nbsp;&nbsp;&nbsp;&nbsp;10:00 - 17:30<br>Lørdag &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00 - 14:00<br>Søndag&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LUKKET</p>
+        <div id="webshopskaerebraet">
+            <img src="images/treaskaerbraet.jpg" id="webshopskaerebraetimg" alt="skærebræt i træ">
+            <p id="webshopskaerebraet">Skærebræt 235,-</p>
         </div>
 
-        <div id="kontaktoplysninger">
-            <h3 class="footerh3">Kontaktoplysninger</h3>
-            <p class="footerp">Butik1000ting<br>Jægergårdsgade 18 - 20<br>8000 Aarhus C<br>Denmark<br><br><a href="tel:86-18-10-90">+45 86 18 10 90</a></p>
+        <div id="webshoppuder">
+            <img src="images/puder.jpg" id="webshoppuderimg" alt="farverige puder, produceret i danmark">
+            <p id="webshoppuderp">Puder 249,-</p>
         </div>
 
-        <a href="https://www.facebook.com/1000-TING-J%C3%A6gerg%C3%A5rdsgade-18-20-8000-%C3%85rhus-C-160721700633324/"><img id="facebook" src="images/facebook.png" alt="facebook logo"/></a>
 
+        <footer>
+            <div id="aabningstider">
+                <h3 class="footerh3">Åbningstider</h3>
+                <p class="footerp">Man - Fre &nbsp;&nbsp;&nbsp;&nbsp;10:00 - 17:30<br>Lørdag &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00 - 14:00<br>Søndag&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LUKKET</p>
+            </div>
 
-        <a href="https://www.instagram.com/butik1000ting/?hl=da"><img id="instagram" src="images/instagram.png" alt="instagram logo"/></a>
-	</footer>
+            <div id="kontaktoplysninger">
+                <h3 class="footerh3">Kontaktoplysninger</h3>
+                <p class="footerp">Butik1000ting<br>Jægergårdsgade 18 - 20<br>8000 Aarhus C<br>Denmark<br><br><a href="tel:86-18-10-90">+45 86 18 10 90</a></p>
+            </div>
+
+            <a href="https://www.facebook.com/1000-TING-J%C3%A6gerg%C3%A5rdsgade-18-20-8000-%C3%85rhus-C-160721700633324/"><img id="facebook" src="images/facebook.png" alt="facebook logo"/></a>
+
+            <a href="https://www.instagram.com/butik1000ting/?hl=da"><img id="instagram" src="images/instagram.png" alt="instagram logo"/></a>
+        </footer>
 </body>
-
 
 </html>
