@@ -307,7 +307,7 @@ footer {
 }
 
 .footerp {
-    
+
 }
 
 footer ul {
@@ -330,16 +330,16 @@ footer ul {
     margin: 5%;
 }
 
-#historie {
+#historieforside {
     position: relative;
     text-align: center;
 }
 
-#historieimg {
+#historieforsideimg {
     width: 90%;
 }
 
-#historiep {
+#historieforsidep {
     color: white;
     text-shadow: -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -359,7 +359,7 @@ footer ul {
 
 #firmagaverimg {
     width: 90%;
-    height: 400px;
+    height: 350px;
 }
 
 #firmagaverp {
@@ -376,3 +376,38 @@ footer ul {
 }
 
 /* om-os */
+
+#vision {
+    margin: 2.5% 5% 2.5% 5%;
+}
+
+#visionimg {
+    margin: 2.5% 5% 2.5% 5%;
+    width: 90%;
+}
+
+#mission {
+    margin: 2.5% 5% 2.5% 5%;
+}
+
+#vaerdier {
+    margin: 2.5% 5% 2.5% 5%;
+}
+
+#historie {
+    margin: 2.5% 5% 2.5% 5%;
+}
+
+#historieimg {
+    margin: 2.5% 5% 2.5% 5%;
+    width: 90%;
+}
+
+#koncept {
+    margin: 2.5% 5% 2.5% 5%;
+}
+
+#konceptimg {
+    width: 90%;
+    margin: 2.5% 5% 2.5% 5%;
+}
