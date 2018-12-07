@@ -88,21 +88,9 @@ label {
 
 /* webshop */
 
-/*------------ Container grid til webshop*/
-
-.grid-container {
-    display: grid;
-    grid-template: 1fr 1fr 1fr 1f/ 1fr 1fr 1fr 1fr 1fr;
-}
-
-.grid-container > div {}
-
-
 /* webshop nyeste tilføjelser */
 
 .webshopnyestefilfoejelser {
-    grid-column: 1 / 5;
-    grid-row: 1 / 2;
     position: relative;
     text-align: center;
     margin-bottom: 2.5%;
@@ -128,8 +116,6 @@ label {
 /* webshop firmagaver */
 
 .webshopfirmagaver {
-    grid-column: 1 / 5;
-    grid-row: 2 / 3;
     position: relative;
     text-align: center;
     margin-top: 2.5%;
@@ -155,8 +141,6 @@ label {
 /* webshop sortiment */
 
 .webshopsortiment {
-    grid-column: 1 / 5;
-    grid-row: 3 / 4;
     position: relative;
     text-align: center;
     margin-top: 2.5%;
@@ -182,8 +166,6 @@ label {
 /* webshop juletilbud */
 
 .webshopjuletilbud {
-    grid-column: 1 / 5;
-    grid-row: 4 / 5;
     position: relative;
     text-align: center;
     margin-top: 2.5%;
@@ -206,61 +188,52 @@ label {
 }
 
 
-/* udvalgte varer */
+/* udvalgte varer OG grid starter her */
 
-/* webshop gul bil */
+/*------------ Container grid til webshop*/
 
-#webshopbil {}
-
-#webshopbilimg {
-    width: 100%;
+.grid-container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1f/ 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
 }
 
-#webshopbilp {}
-
-
-/* webshop notesblok */
-
-#webshopblok {}
-
-#webshopblokimg {
-    width: 100%
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-color: 100px blue;
 }
 
-#weshopblokp {}
-
-
-/* webshop pung */
-
-#webshoppung {}
-
-#webshoppungimg {
-    width: 100%;
+.item1 {
+    background-color: brown;
+    grid-column-start: 1 / 3;
+    grid-column-end: 5 / 6;
 }
 
-#webshoppungp {}
-
-
-/* webshop skærebræt */
-
-#webshopskaerebraet {}
-
-#webshopskaerebraetimg {
-    width: 100%;
+item2 {
+    grid-column-start: 3 / 5;
+    grid-column-end: 5 / 6;
 }
 
-#webshopskaerebraetp {}
-
-
-/* webshop puder */
-
-#webshoppuder {}
-
-#webshoppuderimg {
-    width: 100%;
+.item3 {
+    background-color: brown;
+    grid-column-start: 1 / 2;
+    grid-column-end: 6 / 7;
 }
 
-#webshoppuderp {}
+.item4 {
+    background-color: brown;
+    grid-column-start: 2 / 5;
+    grid-column-end: 6 / 7;
+}
+
+.item5 {
+    background-color: brown;
+    grid-column-start: 1 / 5;
+    grid-column-end: 7 / 8;
+}
 
 
 /*--------------SLUT webshop */
