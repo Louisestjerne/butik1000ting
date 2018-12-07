@@ -18,17 +18,21 @@ body {
     text-align: right;
     height: 70px;
     line-height: 70px;
-    margin-top: -38%;
+    margin-top: -38%x;
+    position: relative;
+    z-index: 1;
+
 }
 
 .menu {
+   
     margin: 0 30px 0 0;
 }
 
 .menu a {
     clear: right;
     text-decoration: none;
-    color: gray;
+    color: black;
     margin: 0 10px;
     line-height: 70px;
 }
@@ -332,6 +336,8 @@ footer ul {
 #firmagaver {
     position: relative;
     text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 #firmagaverimg {
