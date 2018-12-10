@@ -13,6 +13,8 @@ body {
 
 /* GLOBAL */
 
+/* navigation */
+
 .nav {
     position: absolute;
     right: 0px;
@@ -24,24 +26,29 @@ body {
 }
 
 .menu {
-	background-color: white;
-    padding: 20px
+    background-color: white;
 }
 
 .menu a {
-	clear: right;
+    clear: right;
+    text-align: center;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px;
     text-decoration: none;
-    color: black;
-    line-height: 50px;
+    font-size: 18px;
+    margin-right: 
+}
+
 }
 
 span {
-	color: #f2f1f1;
+    color: #f2f1f1;
 }
 
 label {
-	
-	margin: 25px 10px -15px 0;
+    margin: 25px 10px -15px 0;
     font-size: 25px;
     line-height: 70px;
     display: none;
@@ -53,7 +60,7 @@ label {
     display: none;
 }
 
-@media only screen and (max-width: 5000px) {
+@media only screen and (max-width: 500px) {
 
     .nav {
         margin-top: -11%;
@@ -73,9 +80,7 @@ label {
 
     .menu a {
         display: block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
-
+        border-bottom: 1px solid WHITE;
     }
 
     #toggle:checked + .menu {
@@ -369,14 +374,14 @@ footer ul {
     width: 12%;
 }
 
-#tlf{
-	color: black;
+#tlf {
+    color: black;
 }
 
 /* forside */
 
 #stemvid {
-	position:relative; 
+    position: relative;
 }
 
 
