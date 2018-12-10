@@ -14,25 +14,22 @@ body {
 /* GLOBAL */
 
 .nav {
-    
-	border-bottom: 1px solid #EAEAEB;
+    position: relative;  
+	border-bottom: 2px solid #EAEAEB;
     text-align: right;
-    height: 70px;
     line-height: 70px;
-    margin-top: -38%x;
-    position: relative;
     z-index: 1;
 
 }
 
 .menu {
-    position: static;
-	background-color: #f2f1f1;
+    
+	background-color: white;
     
 }
 
 .menu a {
-    clear: right;
+	clear: right;
     text-decoration: none;
     color: black;
     margin: 0 10px;
@@ -45,7 +42,8 @@ span {
 }
 
 label {
-	margin: 0 40px 0 0;
+	
+	margin: 25px 40px -15px 0;
     font-size: 26px;
     line-height: 70px;
     display: none;
@@ -303,6 +301,11 @@ footer ul {
 }
 
 /* forside */
+
+#stemvid {
+	position:relative; 
+}
+
 
 #hvem-er {
     margin: 5%;
