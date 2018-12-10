@@ -13,7 +13,7 @@ let NewVid = function (movie) {
     // append to <div id="stemvid">
     stemvid.appendChild(vid);
 }
-let forside = 'forside.mp4';
+let forside = 'forsidemobil.mp4';
 // use the object
 NewVid(forside);
 
