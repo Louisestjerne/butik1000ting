@@ -1,4 +1,4 @@
-/* body */
+/*-- Global---*/
 
 body {
     font-family: "source Sans pro", sans-serif;
@@ -10,16 +10,9 @@ body {
     font-family: "source sans pro", sans-serif;
 }
 
-
-/* GLOBAL */
-
-/* navigation */
-
 .nav {
     position: absolute;
-    right: 0px;
-    text-align: right;
-    line-height: 30px;
+    right: 50px;
     z-index: 1;
     color: white;
 
@@ -30,15 +23,15 @@ body {
 }
 
 .menu a {
-    clear: right;
     text-align: center;
     float: left;
     color: white;
-    text-align: center;
     padding: 10px;
+    padding-right: 90px;
     text-decoration: none;
     font-size: 18px;
-    margin-right: 
+
+
 }
 
 }
@@ -60,20 +53,22 @@ label {
     display: none;
 }
 
-@media only screen and (max-width: 500px) {
 
+
+@media screen and (max-width: 500px) {
     .nav {
-        margin-top: -11%;
+        margin-top: -8%;
+        margin-right: -7%;
     }
 
 
     label {
         display: block;
         cursor: pointer;
+
     }
 
     .menu {
-        text-align: center;
         width: 100%;
         display: none;
     }
@@ -81,394 +76,512 @@ label {
     .menu a {
         display: block;
         border-bottom: 1px solid WHITE;
+        float: right;
+        margin: 5% 5% 0 0;
+
     }
 
     #toggle:checked + .menu {
         display: block;
     }
+
+    /* forside */
+
+    /* om-os */
+
+    /* webshop */
+
+    /* webshop nyeste tilføjelser */
+
+
+    .webshopnyestefilfoejelser {
+        position: relative;
+        text-align: center;
+        margin-bottom: 2.5%;
+
+    }
+
+    .webshopnyestetilfoejelserp {
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 0px 20px 0px 30px;
+        border-radius: 40px;
+    }
+
+    #webshopnyestetilfoejelserimg {
+        width: 90%;
+    }
+
+
+    /* webshop firmagaver */
+
+    .webshopfirmagaver {
+        position: relative;
+        text-align: center;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    .webshopfirmagaverp {
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 0px 20px 0px 30px;
+        border-radius: 40px;
+    }
+
+    #webshopfirmagaverimg {
+        width: 90%;
+    }
+
+
+    /* webshop sortiment */
+
+    .webshopsortiment {
+        position: relative;
+        text-align: center;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    .webshopsortimentp {
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 0px 20px 0px 30px;
+        border-radius: 40px;
+    }
+
+    #webshopsortimentimg {
+        width: 90%;
+    }
+
+
+    /* webshop juletilbud */
+
+    .webshopjuletilbud {
+        position: relative;
+        text-align: center;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    .webshopjuletilbudp {
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 0px 20px 0px 20px;
+        border-radius: 40px;
+    }
+
+    #webshopjuletilbudimg {
+        width: 90%;
+    }
+
+
+    /* udvalgte varer OG grid starter her */
+
+    /*------------ Container grid til webshop*/
+
+    .grid-container {
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1f/ 1fr 1fr 1fr 1fr 1fr;
+
+    }
+
+    .grid-container > div {
+        width: 100%;
+    }
+
+    /* gul bil */
+
+    .item1 {
+        grid-column: 1 / 3;
+        grid-row: 5 / 5;
+        position: relative;
+    }
+
+    .b1 {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .b1p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 90%;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* notesblokke */
+
+    .item2 {
+        grid-column: 3 / 5;
+        grid-row: 5 / 5;
+        position: relative;
+    }
+
+    .b2 {
+        width: 100%;
+    }
+
+    .b2p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 90%;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* punge */
+
+    .item3 {
+        grid-column: 1 / 3;
+        grid-row: 6 / 7;
+        position: relative;
+    }
+
+    .b3 {
+        width: 100%;
+    }
+
+    .b3p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 90%;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* skærebræt */
+
+    .item4 {
+        grid-column: 3 / 5;
+        grid-row: 6 / 7;
+        position: relative;
+    }
+
+    .b4 {
+        width: 100%;
+    }
+
+    .b4p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 90%;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* puder */
+
+    .item5 {
+        grid-column: 1 / 5;
+        grid-row: 7 / 8;
+        position: relative;
+    }
+
+    .b5 {
+        width: 100%;
+    }
+
+    .b5p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 90%;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*--------------SLUT webshop */
+
+    /* --MOBIL-- */
+
+    /* mobil global */
+
+    footer {
+        width: 100%;
+        background-color: #a8d7e7;
+        color: black;
+        text-align: center;
+        padding: 2% 0 0 0;
+    }
+
+    #aabningstider {}
+
+    #kontaktoplysninger {}
+
+    .footerh3 {
+        margin: 4% 0 2% 0;
+    }
+
+    .footerp {}
+
+    footer ul {
+        list-style: none;
+    }
+
+    #facebook {
+        margin: 5% 1% 5% 0;
+        width: 12%;
+    }
+
+    #instagram {
+        margin: 5% 0 5% 1%;
+        width: 12%;
+    }
+
+    #tlf {
+        color: black;
+    }
+
+    /* forside */
+
+    #stemvid {
+        position: relative;
+    }
+
+
+    #hvem-er {
+        margin: 5%;
+    }
+
+    #historieforside {
+        position: relative;
+        text-align: center;
+    }
+
+    #historieforsideimg {
+        width: 90%;
+    }
+
+    #historieforsidep {
+        color: white;
+        text-shadow: -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+        font-size: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #firmagaver {
+        position: relative;
+        text-align: center;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    #firmagaverimg {
+        width: 90%;
+        height: 350px;
+    }
+
+    #firmagaverp {
+        color: white;
+        text-shadow: -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+        font-size: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* om-os */
+
+    #vision {
+        margin: 2.5% 5% 2.5% 5%;
+    }
+
+    #visionimg {
+        margin: 2.5% 5% 2.5% 5%;
+        width: 90%;
+    }
+
+    #mission {
+        margin: 2.5% 5% 2.5% 5%;
+    }
+
+    #vaerdier {
+        margin: 2.5% 5% 2.5% 5%;
+    }
+
+    #historie {
+        margin: 2.5% 5% 2.5% 5%;
+    }
+
+    #historieimg {
+        margin: 2.5% 5% 2.5% 5%;
+        width: 90%;
+    }
+
+    #koncept {
+        margin: 2.5% 5% 5% 5%;
+    }
+
+    #konceptimg {
+        width: 90%;
+        margin: 2.5% 5% 2.5% 5%;
+    }
 }
 
-/* --DESKTOP-- */
-
-/* forside */
-
-/* om-os */
-
-/* webshop */
-
-/* webshop nyeste tilføjelser */
-
-.webshopnyestefilfoejelser {
-    position: relative;
-    text-align: center;
-    margin-bottom: 2.5%;
-    margin-top: 5%;
-}
-
-.webshopnyestetilfoejelserp {
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 0px 20px 0px 30px;
-    border-radius: 40px;
-}
-
-#webshopnyestetilfoejelserimg {
-    width: 90%;
-}
-
-
-/* webshop firmagaver */
-
-.webshopfirmagaver {
-    position: relative;
-    text-align: center;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-}
-
-.webshopfirmagaverp {
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 0px 20px 0px 30px;
-    border-radius: 40px;
-}
-
-#webshopfirmagaverimg {
-    width: 90%;
-}
-
-
-/* webshop sortiment */
-
-.webshopsortiment {
-    position: relative;
-    text-align: center;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-}
-
-.webshopsortimentp {
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 0px 20px 0px 30px;
-    border-radius: 40px;
-}
-
-#webshopsortimentimg {
-    width: 90%;
-}
-
-
-/* webshop juletilbud */
-
-.webshopjuletilbud {
-    position: relative;
-    text-align: center;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-}
-
-.webshopjuletilbudp {
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 0px 20px 0px 20px;
-    border-radius: 40px;
-}
-
-#webshopjuletilbudimg {
-    width: 90%;
-}
-
-
-/* udvalgte varer OG grid starter her */
-
-/*------------ Container grid til webshop*/
-
-.grid-container {
-    display: grid;
-    grid-template: 1fr 1fr 1fr 1f/ 1fr 1fr 1fr 1fr 1fr;
-
-}
-
-.grid-container > div {
-    width: 100%;
-}
-
-/* gul bil */
-
-.item1 {
-    grid-column: 1 / 3;
-    grid-row: 5 / 5;
-    position: relative;
-}
-
-.b1 {
-    width: 100%;
-    position: relative;
-    text-align: center;
-}
-
-.b1p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 90%;
-    background-color: black;
-    width: 100%;
-    text-align: center;
-}
-
-
-/* notesblokke */
-
-.item2 {
-    grid-column: 3 / 5;
-    grid-row: 5 / 5;
-    position: relative;
-}
-
-.b2 {
-    width: 100%;
-}
-
-.b2p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 90%;
-    background-color: black;
-    width: 100%;
-    text-align: center;
-}
-
-
-/* punge */
-
-.item3 {
-    grid-column: 1 / 3;
-    grid-row: 6 / 7;
-    position: relative;
-}
-
-.b3 {
-    width: 100%;
-}
-
-.b3p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 90%;
-    background-color: black;
-    width: 100%;
-    text-align: center;
-}
-
-
-/* skærebræt */
-
-.item4 {
-    grid-column: 3 / 5;
-    grid-row: 6 / 7;
-    position: relative;
-}
-
-.b4 {
-    width: 100%;
-}
-
-.b4p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 90%;
-    background-color: black;
-    width: 100%;
-    text-align: center;
-}
-
-
-/* puder */
-
-.item5 {
-    grid-column: 1 / 5;
-    grid-row: 7 / 8;
-    position: relative;
-}
-
-.b5 {
-    width: 100%;
-}
-
-.b5p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 90%;
-    background-color: black;
-    width: 100%;
-    text-align: center;
-}
-
-/*--------------SLUT webshop */
-
-/* --MOBIL-- */
-
-/* mobil global */
-
-footer {
-    width: 100%;
-    background-color: #a8d7e7;
-    color: black;
-    text-align: center;
-    padding: 2% 0 0 0;
-}
-
-#aabningstider {}
-
-#kontaktoplysninger {}
-
-.footerh3 {
-    margin: 4% 0 2% 0;
-}
-
-.footerp {}
-
-footer ul {
-    list-style: none;
-}
-
-#facebook {
-    margin: 5% 1% 5% 0;
-    width: 12%;
-}
-
-#instagram {
-    margin: 5% 0 5% 1%;
-    width: 12%;
-}
-
-#tlf {
-    color: black;
-}
-
-/* forside */
-
-#stemvid {
-    position: relative;
-}
-
-
-#hvem-er {
-    margin: 5%;
-}
-
-#historieforside {
-    position: relative;
-    text-align: center;
-}
-
-#historieforsideimg {
-    width: 90%;
-}
-
-#historieforsidep {
-    color: white;
-    text-shadow: -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-    font-size: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#firmagaver {
-    position: relative;
-    text-align: center;
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-#firmagaverimg {
-    width: 90%;
-    height: 350px;
-}
-
-#firmagaverp {
-    color: white;
-    text-shadow: -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-    font-size: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* om-os */
-
-#vision {
-    margin: 2.5% 5% 2.5% 5%;
-}
-
-#visionimg {
-    margin: 2.5% 5% 2.5% 5%;
-    width: 90%;
-}
-
-#mission {
-    margin: 2.5% 5% 2.5% 5%;
-}
-
-#vaerdier {
-    margin: 2.5% 5% 2.5% 5%;
-}
-
-#historie {
-    margin: 2.5% 5% 2.5% 5%;
-}
-
-#historieimg {
-    margin: 2.5% 5% 2.5% 5%;
-    width: 90%;
-}
-
-#koncept {
-    margin: 2.5% 5% 5% 5%;
-}
-
-#konceptimg {
-    width: 90%;
-    margin: 2.5% 5% 2.5% 5%;
-}
+/* DESKTOP */
+
+@media screen and (min-width: 501px) {
+
+    /*FORSIDE*/
+
+    .flex {
+        
+        display: flex;
+        width: 64%;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    
+
+    #hvem-er {
+        margin: 3% 20% 3% 20%; 
+    }
+    #historieforside {
+        position: relative;
+    }
+
+    #historieforsideimg {
+        width: 98%;
+        height: 90.1%;
+    }
+
+    #historieforsidep {
+        position: absolute;
+        color: white;
+        text-shadow: -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+        font-size: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    #firmagaver {
+        position: relative;
+       
+    }
+
+    #firmagaverimg {
+        width: 90%;
+        height: 90%
+    }
+
+    #firmagaverp {
+        color: white;
+        text-shadow: -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+        font-size: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+ /*--FOOTER--*/
+        footer {
+        width: 100%;
+        background-color: #a8d7e7;
+        color: black;
+        
+        padding: 2% 0 0 0;
+    }
+
+    #aabningstider {
+        float: left;
+    }
+
+    #kontaktoplysninger {
+        float: left;
+    }
+
+    .footerh3 {
+        float: left;
+        margin: 4% 0 2% 0;
+    }
+
+    .footerp {
+        
+        float: left;
+    }
+
+    footer ul {
+        list-style: none;
+    }
+
+    #facebook {
+        margin: 5% 1% 5% 0;
+        width: 5%;
+        float: right;
+    }
+
+    #instagram {
+        margin: 5% 0 5% 1%;
+        width: 5%;
+        float: right;
+    }
+
+    #tlf {
+        color: black;
+        float: l
+    }
+
+ 
+
+    
