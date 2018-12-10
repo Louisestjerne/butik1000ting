@@ -1,8 +1,8 @@
 
 
 // media query change
-function WidthChange(mq) {
-if (mq.matches) {
+function WidthChange(film) {
+if (film.matches) {
 // window width is at least 500px
         let NewVid = function (movie) {
     // create a <video>
@@ -67,10 +67,8 @@ let View = function (movie) {
 
 // media query event handler
 if (matchMedia) {
-let mq = window.matchMedia("(min-width: 500px)");
-WidthChange(mq);
+let film = window.matchMedia("(min-width: 500px)");
+WidthChange(film);
 }
 
-
-// https://www.sitepoint.com/javascript-media-queries/ 
 
