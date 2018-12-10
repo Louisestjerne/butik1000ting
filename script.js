@@ -70,3 +70,7 @@ if (matchMedia) {
 let mq = window.matchMedia("(min-width: 500px)");
 WidthChange(mq);
 }
+
+
+// https://www.sitepoint.com/javascript-media-queries/ 
+
