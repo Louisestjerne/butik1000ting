@@ -476,12 +476,18 @@ label {
 
     /*FORSIDE*/
 
-    .flex {
-        
+	.flex {
+		display: flex;
+		justify-content: center;
+		margin-left: 350px;
+		width: 800px; 
+		
+	}
+	
+    .flexbox {
         display: flex;
-        width: 64%;
-        margin-right: 20%;
-        margin-left: 20%;
+		justify-content: center;
+		flex-direction: row; 
     }
     
 
@@ -534,6 +540,7 @@ label {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+}
  /*--FOOTER--*/
         footer {
         width: 100%;
