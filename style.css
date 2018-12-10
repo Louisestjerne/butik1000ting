@@ -14,31 +14,41 @@ body {
 /* GLOBAL */
 
 .nav {
-    border-bottom: 1px solid #EAEAEB;
+    position: relative;  
+	border-bottom: 2px solid #EAEAEB;
     text-align: right;
-    height: 70px;
     line-height: 70px;
-    margin-top: -38%;
+    z-index: 1;
+
 }
 
 .menu {
+<<<<<<< HEAD
+
     margin: 0 30px 0 0;
+=======
+    
+	background-color: white;
+    
+>>>>>>> c71cce0d792988ecdb014e42c52b8baf7bae0f5e
 }
 
 .menu a {
-    clear: right;
+	clear: right;
     text-decoration: none;
-    color: gray;
+    color: black;
     margin: 0 10px;
     line-height: 70px;
 }
 
 span {
-    color: #54D17A;
+    
+	color: #f2f1f1;
 }
 
 label {
-    margin: 0 40px 0 0;
+	
+	margin: 25px 40px -15px 0;
     font-size: 26px;
     line-height: 70px;
     display: none;
@@ -88,21 +98,9 @@ label {
 
 /* webshop */
 
-/*------------ Container grid til webshop*/
-
-.grid-container {
-    display: grid;
-    grid-template: 1fr 1fr 1fr 1f/ 1fr 1fr 1fr 1fr 1fr;
-}
-
-.grid-container > div {}
-
-
 /* webshop nyeste tilføjelser */
 
 .webshopnyestefilfoejelser {
-    grid-column: 1 / 5;
-    grid-row: 1 / 2;
     position: relative;
     text-align: center;
     margin-bottom: 2.5%;
@@ -128,8 +126,6 @@ label {
 /* webshop firmagaver */
 
 .webshopfirmagaver {
-    grid-column: 1 / 5;
-    grid-row: 2 / 3;
     position: relative;
     text-align: center;
     margin-top: 2.5%;
@@ -155,8 +151,6 @@ label {
 /* webshop sortiment */
 
 .webshopsortiment {
-    grid-column: 1 / 5;
-    grid-row: 3 / 4;
     position: relative;
     text-align: center;
     margin-top: 2.5%;
@@ -182,8 +176,6 @@ label {
 /* webshop juletilbud */
 
 .webshopjuletilbud {
-    grid-column: 1 / 5;
-    grid-row: 4 / 5;
     position: relative;
     text-align: center;
     margin-top: 2.5%;
@@ -206,62 +198,145 @@ label {
 }
 
 
-/* udvalgte varer */
+/* udvalgte varer OG grid starter her */
 
-/* webshop gul bil */
+/*------------ Container grid til webshop*/
 
-#webshopbil {}
+.grid-container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1f/ 1fr 1fr 1fr 1fr 1fr;
 
-#webshopbilimg {
+}
+
+.grid-container > div {
     width: 100%;
 }
 
-#webshopbilp {}
+/* gul bil */
 
-
-/* webshop notesblok */
-
-#webshopblok {}
-
-#webshopblokimg {
-    width: 100%
+.item1 {
+    grid-column: 1 / 3;
+    grid-row: 5 / 5;
+    position: relative;
 }
 
-#weshopblokp {}
+.b1 {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.b1p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 90%;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
 
 
-/* webshop pung */
+/* notesblokke */
 
-#webshoppung {}
+.item2 {
+    grid-column: 3 / 5;
+    grid-row: 5 / 5;
+    position: relative;
+}
 
-#webshoppungimg {
+.b2 {
     width: 100%;
 }
 
-#webshoppungp {}
+.b2p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 90%;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
 
 
-/* webshop skærebræt */
+/* punge */
 
-#webshopskaerebraet {}
+.item3 {
+    grid-column: 1 / 3;
+    grid-row: 6 / 7;
+    position: relative;
+}
 
-#webshopskaerebraetimg {
+.b3 {
     width: 100%;
 }
 
-#webshopskaerebraetp {}
+.b3p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 90%;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
 
 
-/* webshop puder */
+/* skærebræt */
 
-#webshoppuder {}
+.item4 {
+    grid-column: 3 / 5;
+    grid-row: 6 / 7;
+    position: relative;
+}
 
-#webshoppuderimg {
+.b4 {
     width: 100%;
 }
 
-#webshoppuderp {}
+.b4p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 90%;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
 
+
+/* puder */
+
+.item5 {
+    grid-column: 1 / 5;
+    grid-row: 7 / 8;
+    position: relative;
+}
+
+.b5 {
+    width: 100%;
+}
+
+.b5p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 90%;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
 
 /*--------------SLUT webshop */
 
@@ -307,6 +382,11 @@ footer ul {
 
 /* forside */
 
+#stemvid {
+	position:relative; 
+}
+
+
 #hvem-er {
     margin: 5%;
 }
@@ -336,6 +416,8 @@ footer ul {
 #firmagaver {
     position: relative;
     text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 #firmagaverimg {
