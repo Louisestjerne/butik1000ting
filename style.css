@@ -105,9 +105,16 @@ label {
 
     /* webshop */
 
-    /* webshop nyeste tilføjelser */
 
-
+	.webshop-pics {
+		width: 100%;
+	}
+	
+	.cover-pic {
+		width: 100%;
+	}
+	
+	
     .webshopnyestefilfoejelser {
         position: relative;
         text-align: center;
@@ -126,9 +133,7 @@ label {
         border-radius: 40px;
     }
 
-    #webshopnyestetilfoejelserimg {
-        width: 90%;
-    }
+    
 
 
     /* webshop firmagaver */
@@ -151,9 +156,7 @@ label {
         border-radius: 40px;
     }
 
-    #webshopfirmagaverimg {
-        width: 90%;
-    }
+    
 
 
     /* webshop sortiment */
@@ -176,9 +179,7 @@ label {
         border-radius: 40px;
     }
 
-    #webshopsortimentimg {
-        width: 90%;
-    }
+    
 
 
     /* webshop juletilbud */
@@ -201,10 +202,7 @@ label {
         border-radius: 40px;
     }
 
-    #webshopjuletilbudimg {
-        width: 90%;
-    }
-
+    
 
     /* udvalgte varer OG grid starter her */
 
