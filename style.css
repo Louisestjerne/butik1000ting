@@ -827,32 +827,81 @@ label {
 		width: 100%;
 	}
 	
+    .webshop-pics {
+        width: 100%;
+    }
+    
+    .grid-container-2 {
+        display: grid;
+        padding: 2% 10%;
+        grid-gap: 1%;
+        padding-bottom: 40%; /* slet denne her linje */
+        
+    }
+    
+    .webshopnyestefilfoejelser {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        
+    }
+    
+    .webshopfirmagaver {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2; 
+    }
 	
 	
+    .webshopsortiment {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        
+    }
+	
+    .webshopjuletilbud {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        margin-top: 38%;
+        
+    }
 	
 	
+    .webshopnyestetilfoejelserp {
+        color: white;
+        font-size: 40px;
+        margin-top: -23%;
+        margin-left: 30%;
+        margin-bottom: 17%;
+    }
 	
 	
+    .webshopfirmagaverp {
+        color: white;
+        font-size: 40px;
+        margin-top: -53%;
+        margin-left: 35%;
+        
+    }
 	
 	
+    .webshopsortimentp {
+        color: white;
+        font-size: 40px;
+        margin-top: -43%;
+        margin-left: 35%;
+    }
+	
+    .webshopjuletilbudp {
+        color: white;
+         font-size: 40px;
+        margin-top: -25%;
+        margin-left: 35%;
+    }
+    
+    
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+    
 	
 	
 	
