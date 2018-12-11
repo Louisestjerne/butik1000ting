@@ -55,25 +55,31 @@ label {
 
 
 @media screen and (max-width: 700px) {
+    
     .nav {
-        margin-top: -8%;
-        margin-right: -7%;
+        margin-top: -4%;
+        margin-right: -5%;
     }
 
 
 
     label {
+     
         display: block;
         cursor: pointer;
 
     }
 
     .menu {
-        width: 100%;
+        width: 70%;
         display: none;
+        margin-top:24%;
+        margin-left: 40%;
+        
     }
 
     .menu a {
+
         display: block;
         border-bottom: 1px solid WHITE;
         float: right;
@@ -556,7 +562,7 @@ label {
             1px -1px 0 #000,
             -1px 1px 0 #000,
             1px 1px 0 #000;
-        font-size: 230%;
+        font-size: 150%;
         position: absolute;
         top: 45%;
         left: 50%;
@@ -580,7 +586,7 @@ label {
             1px -1px 0 #000,
             -1px 1px 0 #000,
             1px 1px 0 #000;
-        font-size: 230%;
+        font-size: 150%;
         position: absolute;
         top: 45%;
         left: 50%;
@@ -604,7 +610,7 @@ label {
             1px -1px 0 #000,
             -1px 1px 0 #000,
             1px 1px 0 #000;
-        font-size: 200%;
+        font-size: 150%;
         position: absolute;
         top: 45%;
         left: 50%;
