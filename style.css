@@ -835,7 +835,7 @@ label {
         display: grid;
         padding: 2% 10%;
         grid-gap: 1%;
-        padding-bottom: 40%; /* slet denne her linje */
+        padding-bottom: 10%; 
         
     }
     
@@ -899,6 +899,71 @@ label {
     
     
 	
+    
+    
+    
+    .web-title {
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    
+    .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+      "b1 b1 b1 b2 b2 b2" 
+      "b3 b3 b4 b4 b5 b5";
+  padding: 0 10%;
+        
+}
+
+.item1 {
+    grid-area: b1; 
+    }
+
+.item2 {
+    grid-area: b2; 
+    }
+
+.item3 { 
+    grid-area: b3; 
+    }
+
+.item4 { 
+    grid-area: b4; 
+    }
+
+.item5 { 
+    grid-area: b5; 
+    }
+    
+    
+    .b1 {
+        width: 100%;
+    }
+    
+    
+    .b2 {
+        width: 100%;
+    }
+    
+    .b3 {
+        width: 100%;
+    }
+    
+    .b4 {
+        width: 100%;
+    }
+    
+    .b5 {
+        width: 100%;
+    }
+    
+    
+    
+    
 	
 
     
