@@ -100,14 +100,28 @@ label {
         display: none;
     }
 
-    /* om-os */
-    /* webshop */
-    .webshop-pics {
+     /* OM OS */
+    
+    .omosmobil {
         width: 100%;
     }
+    
+    .omosforside {
+        display: none;
+    }
+    
+    
+    
+    /* webshop */
+    
 
-    .cover-pic {
+    
+    .webshopmobil {
         width: 100%;
+    }
+    
+    .webshopforside {
+        display: none;
     }
 
 
@@ -150,8 +164,10 @@ label {
         padding: 0px 20px 0px 30px;
         border-radius: 40px;
     }
-
-
+    
+     .webshop-pics {
+        width: 100%;
+    }
 
 
     /* webshop sortiment */
@@ -551,6 +567,28 @@ label {
         transform: translate(-50%, -50%);
 
     }
+    
+    
+    /* OM OS */
+    
+    .omosmobil {
+        display: none;
+    }
+    
+    .omosforside {
+        width: 100%;
+    }
+    
+/* Webshop */   
+    
+    .webshopmobil {
+        display: none;
+    }
+    
+    .webshopforside {
+        width: 100%;
+        
+    }
 
     #julebillede {
         position: relative;
@@ -723,6 +761,27 @@ label {
         transform: translate(-50%, -50%);
 
     }
+    
+    /* OM OS */
+    
+    .omosmobil {
+        display: none;
+    }
+    
+    .omosforside {
+        width: 100%;
+    }
+    
+    /* Webshop */
+    
+    
+    .webshopmobil {
+        display: none;
+    }
+    
+    .webshopforside {
+        width: 100%;   
+    }
 
     #julebillede {
         position: relative;
@@ -799,6 +858,7 @@ label {
     
     .webshopforside {
         width: 100%;
+        
     }
 
     .webshop-pics {
