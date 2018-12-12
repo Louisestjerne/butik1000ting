@@ -1,5 +1,3 @@
-
-
 // media query change
 function WidthChange(film) {
 if (film.matches) {
