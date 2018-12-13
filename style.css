@@ -150,6 +150,7 @@ label {
         position: relative;
         text-align: center;
         margin-bottom: 2.5%;
+		
 
     }
 
@@ -300,9 +301,7 @@ label {
     }
     
     .pics-text {
-        display: none;  /*  slet denne her */
-        text-align: center;
-        margin-bottom: 7%;
+        display: none;  
     }
     
 
@@ -841,25 +840,42 @@ label {
     .webshopnyestefilfoejelser {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
+		text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
         
     }
     
     .webshopfirmagaver {
         grid-column: 2 / 3;
-        grid-row: 1 / 2; 
+        grid-row: 1 / 2;
+		text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
     }
 	
 	
     .webshopsortiment {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
+		margin-top: -2%;
+		text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
         
     }
 	
     .webshopjuletilbud {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
-        margin-top: 38%;
+		text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+        margin-top: 35%;
         
     }
 	
@@ -892,7 +908,7 @@ label {
     .webshopjuletilbudp {
         color: white;
          font-size: 40px;
-        margin-top: -25%;
+        margin-top: -27%;
         margin-left: 35%;
     }
     
