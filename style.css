@@ -134,33 +134,26 @@ label {
     
     
     
-    #visionimgmobil {
-        
+    #visionimgmobil {        
         display: none;
     }
-
-
 
     .tekstomos {
         line-height: 150%;
         margin-top: 1%;
+        font-weight: 300;
     }
     
-    #visionimg {
-		width: 100%;
-	}
-    
-	#konceptimg{
-		width: 100%;
-	}
-	
-	#missionimg {
-		width: 100%;
-        margin-left: 5%;
-        margin-bottom: 5%;
-	}
+    .titelomos {
+        font-weight: 500;
+    }
 
-    
+    .omostavle {
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
     .omosmobil {
         width: 100%;
     }
@@ -570,85 +563,56 @@ label {
     
 	
 	 /* webshop Ipad */ 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
     
     /* OM OS */
    
 	.omosflexboxcontaioner {
-      
-		margin-left: 5%;
-        margin-right: 5%;
+		margin-left: 10%;
+        margin-right: 10%;
 		display: -ms-flexbox;
 		display: -webkit-flex;
 		display: flex;
 		-webkit-flex-flow: row wrap;
-	
-
 	}
     
     #historie {
-		width: 45%;
-		padding: 0%;
-		margin-top: 1%;	
+		margin-top: 5%;	
 	}
     
 	#koncept {
-        width: 45%;
-		padding: 0%;
 		margin-top: 2%;
 	}
 
 	#mission {
-		margin-top: 20px;
-        margin-bottom: 7%;
-        width: 45%; 
-	}
-
-
-	#missionimg {
+		margin-top: 2%;
+        margin-bottom: 5%;
         
-		width: 50%;
-        height:250px;
-        margin-bottom: 1%;
-        margin-top: 4%;
 	}
-    
-    #konceptimg {
-        float: left;
-        width: 50%;
-        height:250px;
-        margin-top: 4%;
-    }
 
-	#visionimg {
-    height: 250px;
-	 width: 50%;
-        margin-top: 4%;
-        margin-bottom: 2%;
-	}
-    
-    #visionimgmobil {
-        display: none;
-    }
-
-    
     .omosmobil {
         display: none;
     }
     
     .omosforside {
         width: 100%;
+    }
+    
+    .omostavle {
+        margin: 2% 10% 2% 10%;
+        width: 80%;
+    }
+    
+    .titelomos {
+        margin-bottom: 1%;
+        font-weight: 500;
+    }
+    
+    .tekstomos {
+        font-weight: 300;
+        line-height: 150%;
+        margin-bottom: 3%;
     }
     
 /* Webshop */   
@@ -840,54 +804,33 @@ label {
         
     .omosflexboxcontaioner {
         margin-top: 1%;
-		margin-left: 10%;
-        margin-right: 10%;
 		display: -ms-flexbox;
 		display: -webkit-flex;
 		display: flex;
 		-webkit-flex-flow: row wrap;
-	
-
 	}
 	#koncept {
-        width: 45%;
-		padding: 0%;
-		margin-top: 20px;
-        margin-left: 3%;
-        
+        width: 50%;
+		margin: 2% 2% 5% 0%;
 	}
-
 	#mission {
-	padding: 0%;
-		margin-top: 20px;
-        margin-bottom: 7%;
-       
+	margin: 2% 2% 2% 2%;
+		width: 42%;
+        margin-bottom: 5%;
 	}
-
-
-	#historieimg {
-		width: 45.8%;
-        margin-left: -15%;
-	}
-    
-    #konceptimg {
-        margin-left: -15%;
-        width: 45%;
-        height: 300px;
+    #historie {
+        margin: 0%;
+        width: 50%;
+        margin-top: 4%;
     }
 
-	#visionimg {
-        margin-right: -15%;
-	 width: 35%;
-       
-	}
-    
-    #visionimgmobil {
-        display: none;
+    .omostavle {
+        margin: 0%;
+        width: 45.8%;
+        height: 318px;
+        margin-left: 4.2%;
+        margin-top: 4%;
     }
-
-
-    
     .omosmobil {
         display: none;
     }
@@ -895,7 +838,6 @@ label {
     .omosforside {
         width: 100%;
     }
-    
     /* Webshop */
     
     
