@@ -177,10 +177,11 @@ label {
     }
 
 
-    .webshopnyestefilfoejelser {
+    .Nyhed {
         position: relative;
         text-align: center;
         margin-bottom: 2.5%;
+        margin-top: 3%;
 		
     }
 
@@ -200,14 +201,14 @@ label {
 
     /* webshop firmagaver */
     
-    .webshopfirmagaver {
+    .Firmagaver {
         position: relative;
         text-align: center;
         margin-top: 2.5%;
         margin-bottom: 2.5%;
     }
 
-    .webshopfirmagaverp {
+    .grid-title {
         font-size: 30px;
         position: absolute;
         top: 50%;
@@ -220,20 +221,24 @@ label {
         1px 1px 0 #000;
     }
     
-     .webshop-pics {
-        width: 100%;
+     .grid-pics {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
+    
+
 
 
     /* webshop sortiment */
-    .webshopsortiment {
+    .Sortiment {
         position: relative;
         text-align: center;
         margin-top: 2.5%;
         margin-bottom: 2.5%;
     }
 
-    .webshopsortimentp {
+    .grid-title {
         font-size: 30px;
         position: absolute;
         top: 50%;
@@ -245,19 +250,32 @@ label {
         -1px 1px 0 #000,
         1px 1px 0 #000;
     }
+    
+     #grid-sortiment {
+         width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
 
 
 
     /* webshop juletilbud */
-    .webshopjuletilbud {
+    
+     #grid-juletilbud {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .Juletilbud {
         position: relative;
         text-align: center;
         margin-top: 2.5%;
         margin-bottom: 2.5%;
     }
 
-    .webshopjuletilbudp {
+    .grid-title {
         font-size: 30px;
         position: absolute;
         top: 50%;
