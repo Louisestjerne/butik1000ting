@@ -53,6 +53,7 @@ label {
     float: right;
 }
 
+
 #toggle {
     display: none;
 }
@@ -94,8 +95,16 @@ label {
     #toggle:checked + .menu {
         display: block;
     }
+    
+    #visionimgmobil {
+        
+        display: none;
+    }
 }
 
+
+
+/* Mobil */
 @media screen and (max-width: 700px) {
 
    .menu a {
@@ -122,6 +131,38 @@ label {
     }
 
      /* OM OS */
+    
+    
+    
+    #visionimgmobil {
+        
+        display: none;
+    }
+
+
+
+    .tekstomos {
+        line-height: 150%;
+        margin-top: 1%;
+        
+    }
+
+
+		
+    #visionimg {
+		width: 100%;
+	}
+    
+	#konceptimg{
+		width: 100%;
+	}
+	
+	#missionimg {
+		width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+	}
+
     
     .omosmobil {
         width: 100%;
@@ -591,6 +632,64 @@ label {
     
     
     /* OM OS */
+   
+	.omosflexboxcontaioner {
+      
+		margin-left: 5%;
+        margin-right: 5%;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+	
+
+	}
+    
+    #historie {
+		width: 45%;
+		padding: 0%;
+		margin-top: 1%;	
+	}
+    
+	#koncept {
+        width: 45%;
+		padding: 0%;
+		margin-top: 2%;
+	}
+
+	#mission {
+		margin-top: 20px;
+        margin-bottom: 7%;
+        width: 45%; 
+	}
+
+
+	#missionimg {
+        
+		width: 50%;
+        height:250px;
+        margin-bottom: 1%;
+        margin-top: 4%;
+	}
+    
+    #konceptimg {
+        float: left;
+        width: 50%;
+        height:250px;
+        margin-top: 4%;
+    }
+
+	#visionimg {
+    height: 250px;
+	 width: 50%;
+        margin-top: 4%;
+        margin-bottom: 2%;
+	}
+    
+    #visionimgmobil {
+        display: none;
+    }
+
     
     .omosmobil {
         display: none;
@@ -657,224 +756,7 @@ label {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
-    /*--FOOTER--*/
-    .flexbox {
-        display: flex;
-        justify-content: space-between;
-        background-color: #a8d7e7;
-        padding: 10px;
-
-    }
-
-    .flex-container {
-        margin: 1%;
-        width: 100%;
-        text-align: center;
-        margin-left: 5%;
-
-    }
-
-
-
-    .logo {
-        width: 15%;
-        margin-left: 5%;
-        margin-top: 9%;
-    }
-
-
-
-
-
-}
-
-
-
-/* DESKTOP */
-
-@media screen and (min-width: 1100px) {
-
-    /*FORSIDE*/
-    .landingpage {
-
-        position: relative;
-    }
-
-    .landingpageimg {
-        width: 100%;
-
-
-    }
-
-    .landingpageh3 {
-        position: absolute;
-        color: black;
-        font-size: 200%;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-
-    .landingpagep {
-        text-align: center;
-        position: absolute;
-        color: black;
-        font-size: 180%;
-        top: 35%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-
-    .menu a {
-        text-align: center;
-        float: left;
-        color: white;
-        padding: 5px;
-        padding-right: 79px;
-        text-decoration: none;
-        font-size: 20px;
-        margin-top: 8%;
-
-
-    }
-
-    .flex {
-        display: flex;
-        justify-content: center;
-        margin-left: 20%;
-        width: 60%;
-
-    }
-
-    .flexbox {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-    }
-
-
-    #hvem-er {
-        margin: 3% 20% 3% 20%;
-    }
-    #historieforside {
-        position: relative;
-    }
-
-    #historieforsideimg {
-        width: 98%;
-        height: 90.1%;
-    }
-
-    #historieforsidep {
-        position: absolute;
-        color: white;
-        text-shadow: -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-        font-size: 230%;
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    }
     
-    /* OM OS */
-    
-    .omosmobil {
-        display: none;
-    }
-    
-    .omosforside {
-        width: 100%;
-    }
-    
-    /* Webshop */
-    
-    
-    .webshopmobil {
-        display: none;
-    }
-    
-    .webshopforside {
-        width: 100%;   
-    }
-
-    #julebillede {
-        position: relative;
-    }
-
-    #julebilledeimg {
-        width: 98%;
-        height: 90.1%;
-    }
-
-    #julebilledep {
-        position: absolute;
-        color: white;
-        text-shadow: -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-        font-size: 230%;
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    }
-
-    #firmagaver {
-        position: relative;
-
-    }
-
-    #firmagaverimg {
-        width: 98%;
-        height: 90%
-    }
-
-    #firmagaverp {
-        color: white;
-        text-shadow: -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-        font-size: 200%;
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    /*--FOOTER--*/
-    .flexbox {
-        display: flex;
-        justify-content: space-between;
-        background-color: #a8d7e7;
-        padding: 10px;
-
-    }
-
-    .flex-container {
-        margin: 1%;
-        width: 100%;
-        text-align: center;
-        margin-left: 5%;
-
-    }
-
-    .logo {
-        width: 15%;
-        margin-left: 5%;
-        margin-top: 9%;
-    }
-
-
     /* webshop desktop */
     
     .webshopforside {
@@ -1006,6 +888,407 @@ label {
     }
 
 
+
+    /*--FOOTER--*/
+    .flexbox {
+        display: flex;
+        justify-content: space-between;
+        background-color: #a8d7e7;
+        padding: 10px;
+
+    }
+
+    .flex-container {
+        margin: 1%;
+        width: 100%;
+        text-align: center;
+        margin-left: 5%;
+
+    }
+
+
+
+    .logo {
+        width: 15%;
+        margin-left: 5%;
+        margin-top: 9%;
+    }
+
+
+
+
+
+}
+
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 1100px) {
+
+    /*FORSIDE*/
+    .landingpage {
+
+        position: relative;
+    }
+
+    .landingpageimg {
+        width: 100%;
+
+
+    }
+
+    .landingpageh3 {
+        position: absolute;
+        color: black;
+        font-size: 200%;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .landingpagep {
+        text-align: center;
+        position: absolute;
+        color: black;
+        font-size: 180%;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .menu a {
+        text-align: center;
+        float: left;
+        color: white;
+        padding: 5px;
+        padding-right: 79px;
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 8%;
+
+
+    }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        margin-left: 20%;
+        width: 60%;
+
+    }
+
+    .flexbox {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+    #hvem-er {
+        margin: 3% 20% 3% 20%;
+    }
+    #historieforside {
+        position: relative;
+    }
+
+    #historieforsideimg {
+        width: 98%;
+        height: 90.1%;
+    }
+
+    #historieforsidep {
+        position: absolute;
+        color: white;
+        text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+        font-size: 230%;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    
+    /* OM OS */
+        
+    .omosflexboxcontaioner {
+        margin-top: 1%;
+		margin-left: 10%;
+        margin-right: 10%;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+	
+
+	}
+	#koncept {
+        width: 45%;
+		padding: 0%;
+		margin-top: 20px;
+        margin-left: 3%;
+        
+	}
+
+	#mission {
+	padding: 0%;
+		margin-top: 20px;
+        margin-bottom: 7%;
+       
+	}
+
+
+	#historieimg {
+		width: 45.8%;
+        margin-left: -15%;
+	}
+    
+    #konceptimg {
+        margin-left: -15%;
+        width: 45%;
+        height: 300px;
+    }
+
+	#visionimg {
+        margin-right: -15%;
+	 width: 35%;
+       
+	}
+    
+    #visionimgmobil {
+        display: none;
+    }
+
+
+    
+    .omosmobil {
+        display: none;
+    }
+    
+    .omosforside {
+        width: 100%;
+    }
+    
+    /* Webshop */
+    
+    
+    .webshopmobil {
+        display: none;
+    }
+    
+    .webshopforside {
+        width: 100%;   
+    }
+
+    #julebillede {
+        position: relative;
+    }
+
+    #julebilledeimg {
+        width: 98%;
+        height: 90.1%;
+    }
+
+    #julebilledep {
+        position: absolute;
+        color: white;
+        text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+        font-size: 230%;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    #firmagaver {
+        position: relative;
+
+    }
+
+    #firmagaverimg {
+        width: 98%;
+        height: 90%
+    }
+
+    #firmagaverp {
+        color: white;
+        text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+        font-size: 200%;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    /* webshop desktop */
+    
+    .webshopforside {
+        width: 100%;
+        
+    }
+
+    .webshop-pics {
+        width: 100%;
+    }
+
+    .grid-container-2 {
+        display: grid;
+        padding: 2% 10%;
+        grid-gap: 1%;
+        padding-bottom: 10%;
+
+    }
+
+    .webshopnyestefilfoejelser {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+
+    }
+
+    .webshopfirmagaver {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+
+    .webshopsortiment {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+
+    }
+
+    .webshopjuletilbud {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        margin-top: 38%;
+    }
+
+    .webshopnyestetilfoejelserp {
+        color: white;
+        font-size: 40px;
+        margin-top: -23%;
+        margin-left: 30%;
+        margin-bottom: 17%;
+    }
+
+
+    .webshopfirmagaverp {
+        color: white;
+        font-size: 40px;
+        margin-top: -53%;
+        margin-left: 35%;
+    }
+
+    .webshopsortimentp {
+        color: white;
+        font-size: 40px;
+        margin-top: -43%;
+        margin-left: 35%;
+    }
+
+    .webshopjuletilbudp {
+        color: white;
+        font-size: 40px;
+        margin-top: -25%;
+        margin-left: 35%;
+    }
+
+    .web-title {
+        text-align: center;
+        font-size: 40px;
+    }
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "b1 b1 b1 b2 b2 b2" "b3 b3 b4 b4 b5 b5";
+        padding: 0 10%;
+
+    }
+
+    .item1 {
+        grid-area: b1;
+    }
+
+    .item2 {
+        grid-area: b2;
+    }
+
+    .item3 {
+        grid-area: b3;
+    }
+
+    .item4 {
+        grid-area: b4;
+    }
+
+    .item5 {
+        grid-area: b5;
+    }
+
+
+    .b1 {
+        width: 100%;
+    }
+
+
+    .b2 {
+        width: 100%;
+    }
+
+    .b3 {
+        width: 100%;
+    }
+
+    .b4 {
+        width: 100%;
+    }
+
+    .b5 {
+        width: 100%;
+    }
+
+
+
+    /*--FOOTER--*/
+    .flexbox {
+        display: flex;
+        justify-content: space-between;
+        background-color: #a8d7e7;
+        padding: 10px;
+
+    }
+
+    .flex-container {
+        margin: 1%;
+        width: 100%;
+        text-align: center;
+        margin-left: 5%;
+
+    }
+
+    .logo {
+        width: 15%;
+        margin-left: 5%;
+        margin-top: 9%;
+    }
+
+
+    
 
 
 
