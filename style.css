@@ -172,7 +172,7 @@ label {
         width: 100%;
     }
     
-    .webshopforside {
+    .webshop-forside-billede {
         display: none;
     }
 
@@ -683,20 +683,22 @@ label {
         display: none;
     }
     
-.webshopforside {
+.webshop-forside-billede {
         width: 100%;
     }
     
 .grid-containerwebshop {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "Nyhed Nyhed Firmagaver Firmagaver" "Sortiment Sortiment Firmagaver Firmagaver" "Sortiment Sortiment Juletilbud Juletilbud";
-		grid-gap: 1%;
-		padding: 0 15%;
-        margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "Nyhed Nyhed Firmagaver Firmagaver" 
+        "Sortiment Sortiment Firmagaver Firmagaver" 
+        "Sortiment Sortiment Juletilbud Juletilbud";
+    grid-gap: 1%;
+    padding: 0 15%;
+    margin-top: 2%;
 }
-
 .grid-containerwebshop:hover {
 	cursor: pointer;
 }
@@ -711,7 +713,6 @@ label {
 	position: relative;
 	text-align: center;
 	color: white;
-
 	
 	}
 
@@ -1146,7 +1147,9 @@ label {
     
     /* webshop desktop */
 		
-    
+    .webshop-forside-billede {
+        width: 100%;
+    }
 
 	.grid-containerwebshop {
   display: grid;
@@ -1320,8 +1323,6 @@ label {
 	.item1 {
 		grid-column: 1 / 4;
 		grid-row: 1 / 2;
-
-
 	}
     
     
