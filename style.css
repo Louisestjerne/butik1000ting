@@ -64,7 +64,7 @@ label {
 
     .nav {
         margin-top: -4%;
-        margin-right: -%;
+     
     }
 
     label {
@@ -727,16 +727,13 @@ label {
         -webkit-transition: all 0.3s;
         transition: all 0.3s;
         z-index: 1;
-
     }
 
-    .webshop-pics2:hover {
-        width 100%;
+    .webshop-pics2:hover { 
         cursor: pointer;
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-        transform: ;
+        transform: scale(1.1); 
     }
 
     .pics-text {
@@ -1141,12 +1138,10 @@ label {
     }
 
     .webshop-pics2:hover {
-        width 100%;
         cursor: pointer;
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
-        transform: ;
     }
 
     .pics-text {
