@@ -131,6 +131,10 @@ label {
     footer ul {
         list-style: none;
     }
+	
+	.follow-us{
+		margin-top: 2%;
+	}
 
     .logo {
         margin: 5% 1% 5% 0;
