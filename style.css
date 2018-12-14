@@ -839,6 +839,9 @@ label {
         margin-left: 5%;
         margin-top: 9%;
     }
+	  #tlf {
+        color: black;
+    }
     
 }
 
@@ -1243,6 +1246,10 @@ label {
         width: 15%;
         margin-left: 5%;
         margin-top: 9%;
+    }
+	
+	  #tlf {
+        color: black;
     }
 
 }
